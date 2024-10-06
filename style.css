@@ -1,5 +1,5 @@
 body{
-  background-color:#A52A2A;
+  background: linear-gradient(to right,#A52A2A,#FFA07A);
   color: #FFFFFF;
   font-family: Times New Roman, sans-serif;
   margin:10% 20%;
@@ -11,6 +11,21 @@ body{
   text-transform:uppercase;
   border-top: 1px solid #FFFFFF;
   border-bottom:1px solid #FFFFFF;
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0,0,0,0.1)
 }
 
+h4{
+  font-size: 25px;
+}
+
+h5{
+  font-size: 20px;
+}
+
+h6{
+  font-size: 15px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  line-height: 5px; 
+}
